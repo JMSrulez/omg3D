@@ -12,7 +12,7 @@ Site web pour le service d'impression 3D **omg3D** (Marseille).
 ---
 
 ## Architecture
-
+```bash
 omg3d/
 ├── public/               # Frontend statique (HTML, CSS, images)
 ├── backend/              # API Node.js (formulaire de contact)
@@ -29,9 +29,7 @@ omg3d/
 |-----------|-------------------------------------------|--------------|
 | `web`     | Nginx (fichiers statiques + reverse proxy)| 80           |
 | `contact` | Backend Express (API `/api/contact`)      | 3000         |
-
----
-
+```
 ## Prérequis
 
 - Docker + Docker Compose
@@ -79,9 +77,7 @@ Emails HTML formatés + pièce jointe
 Interface bilingue FR / EN
 SEO optimisé (schema.org, sitemap, robots.txt, llms.txt)
 
-
-Licence
-
+4. **Licence**
 Projet privé — tous droits réservés.
 
 
