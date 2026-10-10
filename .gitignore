@@ -1,0 +1,59 @@
+# =========================
+# Environnement & secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# =========================
+# Docker
+# =========================
+# (généralement rien à ignorer, mais on peut ajouter si besoin)
+# docker-compose.override.yml
+
+# =========================
+# Logs & fichiers temporaires
+# =========================
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+*.temp
+
+# =========================
+# OS
+# =========================
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# IDE / Éditeur
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# =========================
+# Divers
+# =========================
+*.bak
+*.orig
+*.rej
