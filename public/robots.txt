@@ -1,0 +1,25 @@
+# omg3D — les moteurs de recherche et les agents IA sont les bienvenus
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://omg3d.marseille.men/sitemap.xml
+# Guide pour agents IA : https://omg3d.marseille.men/llms.txt
