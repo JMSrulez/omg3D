@@ -42,15 +42,14 @@ omg3d/
 ## Installation & lancement
 
 1. **Cloner le dépôt**
-
 ```bash
 git clone https://github.com/JMSrulez/omg3d.git
 cd omg3d
-
+```
 2. **Configurer les variables d'environnement**
 
 Crée un fichier .env à la racine (ou copie le modèle existant) :
-
+```bash
 SMTP_HOST=smtp.example.com
 SMTP_PORT=587
 SMTP_SECURE=false
@@ -60,11 +59,12 @@ MAIL_TO=ContactOmg3D@marseille.men
 MAIL_FROM=ton@email.com
 ALLOWED_ORIGIN=https://omg3d.marseille.men
 MAX_FILE_MB=25
+```
 
 3. **Lancer les services**
-
+```bash
 docker compose up -d --build
-
+```
 Le site est accessible sur :
 
 http://localhost:8081 (port défini dans compose.yaml)
